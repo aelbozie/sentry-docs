@@ -163,11 +163,11 @@ Sentry.init({
     // enable HTTP calls tracing
     new Sentry.Integrations.Http({ tracing: true }),
     // enable Express.js middleware tracing
-    new Tracing.Integrations.Express({ 
+    new Tracing.Integrations.Express({
       // to trace all requests to the default router
-      app, 
+      app,
       // alternatively, you can specify the routes you want to trace:
-      // router: someRouter, 
+      // router: someRouter,
     }),
   ],
 

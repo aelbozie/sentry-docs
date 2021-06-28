@@ -41,7 +41,7 @@ static class Program
         Application.SetUnhandledExceptionMode(UnhandledExceptionMode.ThrowException);
 
         // Any other configuration you might have goes here...
-        
+
         Application.Run(new Form1());
     }
 }
